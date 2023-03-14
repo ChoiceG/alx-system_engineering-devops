@@ -1,1 +1,2 @@
-VimCrypt~03!z`d‰;¾Ró9\¸ÖIàøB¸¡¹â¹˜uZJøVçC`ÙÐð°&©ùèc°ÑC]k©$k­“}Áb‡Xé­ünÍÛ%8#šÔK£4e—-'hàö¨ñÍª¯6½N‡œ×Ÿ¡C;Åc4f>?ZÐj<Ñ=CìøG)å9ÁZ8
+#!/bin/bash
+tail -n +2 | cut -f -1 | sort -k 1 | uniq -c | sort -rnk 1 | head -n 11 | rev | cut -d ' ' -f -1 | rev
