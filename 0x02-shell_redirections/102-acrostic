@@ -1,1 +1,2 @@
-VimCrypt~03!Ï·SË$ïª‹óò®]ı¡fæ¹”¥é9	wÔm~Û_ìs×Àø]FŞ¤EÅxCò”·
+#!/bin/bash
+cut -c 1 | paste -s -d "
